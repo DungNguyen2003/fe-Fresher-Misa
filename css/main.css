@@ -1,0 +1,36 @@
+@import url(./components/button.css);
+@import url(./components/input.css);
+@import url(./components/popup.css);
+@import url(./components/table.css);
+
+@import url(./layout/content.css);
+@import url(./layout/header.css);
+@import url(./layout/menu.css);
+
+@import url(../assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css);
+* {
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+@font-face {
+  font-family: NormalFont;
+  src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+.m-flex {
+  display: flex;
+}
+.m-col-gap-8 {
+  column-gap: 8px;
+}
+.m-col-gap-16 {
+  column-gap: 16px;
+}
+.required {
+  color: red;
+}
+.m-row + .m-row {
+  margin-top: 12px;
+}

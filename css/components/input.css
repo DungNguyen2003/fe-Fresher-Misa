@@ -1,0 +1,68 @@
+input {
+  height: 36px;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+input:focus {
+  border-color: #50b83c;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.input-wrapper--full-width {
+  width: 100%;
+}
+.input-wrapper label {
+  font-size: 14px;
+  font-weight: 500;
+}
+#employeeCode,
+#employeePeopleIdDate,
+#employeeBirthday {
+  width: 160px;
+}
+#employeeName {
+  width: 100%;
+}
+
+#employeeEmail,
+#employeeBankBranch {
+  width: 360px;
+}
+
+#popup__select__position {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  height: 36px;
+  padding: 8px;
+}
+.input__gender-form {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  column-gap: 40px;
+  height: 28px;
+}
+.check-gender-wrap {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  height: 100%;
+}
+.check-gender-wrap input {
+  margin-right: 8px;
+  margin-top: 0;
+  width: 18px;
+  height: 18px;
+}
+.input--error {
+  border-color: #ff0000 !important;
+}
+.error-info {
+  color: #ff0000 !important;
+}

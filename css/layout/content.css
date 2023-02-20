@@ -1,0 +1,26 @@
+.content {
+  float: left;
+  background-color: #eeeff1;
+  width: calc(100% - 200px);
+
+  height: calc(100vh - 56px);
+  padding: 16px 24px;
+}
+.content__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__header-name {
+  font-size: 24px;
+  font-weight: 600;
+}
+.btn-add-employee {
+  font-weight: 600;
+}
+.content__body {
+  width: 100%;
+  height: calc(100% - 36px - 16px);
+  background-color: #fff;
+  margin-top: 16px;
+}

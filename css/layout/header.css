@@ -1,0 +1,36 @@
+header {
+  background-color: aqua;
+  /* max-width: calc(100vw - 200px); */
+  width: calc(100% - 200px);
+
+  height: 56px;
+  float: left;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 16px 12px;
+  justify-content: space-between;
+}
+.header-left__container {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.header-right__container {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.profile-user__avatar-img {
+  width: 24px;
+}
+.header__profile-user {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666666;
+  column-gap: 8px;
+}

@@ -1,0 +1,28 @@
+.btn {
+  height: 36px;
+  border-radius: 4px;
+  border: unset;
+  padding: 0 12px;
+  cursor: pointer;
+  color: #fff;
+  min-width: 80px;
+  outline: unset;
+}
+
+.btn--default {
+  background-color: #50b83c !important;
+  font-size: 14px;
+  color: #fff !important;
+}
+.btn:hover {
+  background-color: #f5f5f5 !important;
+}
+.btn--default:hover {
+  background-color: #57c841 !important;
+}
+.btn--active {
+  border-color: #50b83c !important;
+}
+.btn:focus {
+  border-color: #65eb4a !important;
+}
