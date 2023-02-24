@@ -4,6 +4,7 @@
   height: 100vh;
   background: #00000079;
   display: none;
+  z-index: 2;
 }
 .popup-form {
   min-width: 328px;

@@ -2,6 +2,7 @@
   height: calc(100% - 48px);
   padding: 0 16px;
 }
+
 .table__toolbar {
   align-items: center;
   column-gap: 8px;
@@ -33,11 +34,30 @@
 .table-container {
   width: 100%;
   height: calc(100% - 48px - 38px - 24px);
+  overflow-y: auto;
+  position: relative;
+  /* padding-top: 31px; */
+}
+.table-container::-webkit-scrollbar {
+  width: 6px;
+  background-color: #50b83c;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.table-container::-webkit-scrollbar-thumb {
+  background-color: #041434;
+  border-radius: 4px;
 }
 .table {
   width: 100%;
   font-size: 12px;
   border-collapse: collapse;
+}
+thead {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 th {
   line-height: 0;
@@ -74,9 +94,10 @@ tr {
 }
 
 .gender-column {
-  max-width: 50px;
 }
-
+.feature-column {
+  width: 100px;
+}
 .feature-column__container {
   background-color: #fff;
   height: 25px;
